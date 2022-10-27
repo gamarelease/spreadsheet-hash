@@ -5,7 +5,7 @@ The files in this repository implement a function that can generate pseudo-rando
 
 ## The hash function
 
-The hash function chosen is a simple one, the [Fowler-Noll-Vo (FNV) hash function](https://en.m.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function), which could be implemented reasonably without dependency on external computing libraries.  The FNV1a 32 bit variant used here generates 32 bit hashes in the form of hexadecimal strings of length 8 (e.g. `D58B3FA7`).
+The hash function chosen is a simple one, the [Fowler-Noll-Vo (FNV) hash function](https://en.m.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function), which could be implemented reasonably without dependencies on external computing libraries.  The FNV1a 32 bit variant used here generates 32 bit hashes in the form of hexadecimal strings of length 8 (e.g. `D58B3FA7`).
 
 ## Portability
 
