@@ -15,15 +15,15 @@ The code and spreadsheet files were tested on **LibreOffice Calc** (LC) and **Mi
 
 ### Formula-based implementation
 
-- [`ID-Generator.xlsx`](ID-Generator.xlsx?raw=TRUE) — uses formulas to implement the FNV1a hash (tested on LC, ME, WS and GS)
-- [`Gerador-de-ID.xlsx`](Gerador-de-ID.xlsx?raw=TRUE) — identical to the file above, but with instructions in Brazilian Portuguese
+- [`ID-Generator.xlsx`](ID-Generator.xlsx?raw=TRUE) (1.8 MB) — uses formulas to implement the FNV1a hash (tested on LC, ME, WS and GS)
+- [`Gerador-de-ID.xlsx`](Gerador-de-ID.xlsx?raw=TRUE) (1.8 MB) — identical to the file above, but with instructions in Brazilian Portuguese
 
 The formula-based implementation doesn't depend on macros and, therefore, doesn't require special permissions to run and has better portability.  You can use it even on Google Spreedsheets!  However, it depends on a rigid workbook structure with multiple sheets.
 
 ### Macro-based implementation
 
-- [`ID-Generator-MACRO.ods`](ID-Generator-MACRO.ods?raw=TRUE) — uses user-defined functions to implement the FNV1a hash (LibreOffice Calc format)
-- [`ID-Generator-MACRO.xlsm`](ID-Generator-MACRO.xlsm?raw=TRUE) — identical to the file above, but in the Microsoft Excel format
+- [`ID-Generator-MACRO.ods`](ID-Generator-MACRO.ods?raw=TRUE) (44.7 KB) — uses user-defined functions to implement the FNV1a hash (LibreOffice Calc format)
+- [`ID-Generator-MACRO.xlsm`](ID-Generator-MACRO.xlsm?raw=TRUE) (48.7 KB) — identical to the file above, but in the Microsoft Excel format
 - [`name2id.Calc.bas`](name2id.Calc.bas) — code of the BASIC/VBA module used in the macro-based spreadsheets
 - [`name2id.Excel.bas`](name2id.Excel.bas) — identical to the file above, but with the file encoding and format required by Excel
 
