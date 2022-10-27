@@ -22,8 +22,8 @@ The formula-based implementation doesn't depend on macros and, therefore, doesn'
 
 ### Macro-based implementation
 
-- [`ID-Generator.ods`](ID-Generator.ods) — uses user-defined functions to implement the FNV1a hash (LibreOffice Calc format)
-- [`ID-Generator.xlsm`](ID-Generator.xlsm) — identical to the file above, but in the Microsoft Excel format
+- [`ID-Generator-MACRO.ods`](ID-Generator-MACRO.ods) — uses user-defined functions to implement the FNV1a hash (LibreOffice Calc format)
+- [`ID-Generator-MACRO.xlsm`](ID-Generator-MACRO.xlsm) — identical to the file above, but in the Microsoft Excel format
 - [`name2id.Calc.bas`](name2id.Calc.bas) — code of the BASIC/VBA module used in the macro-based spreadsheets
 - [`name2id.Excel.bas`](name2id.Excel.bas) — identical to the file above, but with the file encoding and format required by Excel
 
